@@ -77,26 +77,26 @@ WSGI_APPLICATION = 'untitled.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'PAS_S40_PhygitalzSchoolDatabase',
-    }
-}
-
-
-
-
 # DATABASES = {
 #     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'PhygitalzDev_Schema',
-#         'USER': 'Dev_phygitalz',
-#         'PASSWORD': 'Dev_phygitalz@123',
-#         'HOST': '208.109.13.199',
-#         'PORT': '3306',
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'PAS_S40_PhygitalzSchoolDatabase',
 #     }
 # }
+
+
+
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'PhygitalzDev_SchemaDemo',
+        'USER': 'Dev_phygitalz',
+        'PASSWORD': 'Dev_phygitalz@123',
+        'HOST': '208.109.13.199',
+        'PORT': '3306',
+    }
+}
 
 
 
@@ -147,5 +147,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # media directory in the root directory
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
