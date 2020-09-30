@@ -11,4 +11,4 @@ class PAS_S40_Institution(models.Model):
     S40_Tagline = models.CharField(max_length=50,blank=True,null=True)
     S40_Instition_Logo = models.FileField(blank=True,null=True,upload_to='InstitutionImages/')
     S40_Founder_Logo = models.FileField(blank=True,null=True,upload_to='InstitutionImages/')
-    S40_Document_Path = models.FileField(upload_to='Alumbs/')
+    S40_Document_Path = models.FileField(upload_to='Alumbs/',blank=True,null=True)
