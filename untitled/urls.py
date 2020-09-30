@@ -21,8 +21,8 @@ from school import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('PAS_40_create_school/',views.PAS_40_CreateSchool.as_view()),
-    path('PAS_40_'),
+    path('PAS_40_create_school/',views.PAS_40_CreateSchool.as_view({'post': 'create'})),
+    # path('/',views.PAS_40_ViewSchool.as_view()),
 
 ]
 # only in development
