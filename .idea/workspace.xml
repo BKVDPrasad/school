@@ -50,12 +50,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="82" />
+          <entry key="py" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="82" />
+          <entry key="Python" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -72,11 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/untitled/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="153" column="49" selection-start-line="153" selection-start-column="49" selection-end-line="153" selection-end-column="49" />
+            <state relative-caret-position="240">
+              <caret line="95" column="31" lean-forward="true" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="31" />
               <folding>
                 <element signature="e#308#317#0" expanded="true" />
               </folding>
@@ -108,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/untitled/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="e#632#664#0" expanded="true" />
               </folding>
@@ -117,13 +117,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/school/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
-                <marker date="1601445483339" expanded="true" signature="312:414" ph="..." />
+                <element signature="e#0#35#0" expanded="true" />
+                <marker date="1601445661830" expanded="true" signature="328:430" ph="..." />
               </folding>
             </state>
           </provider>
@@ -152,8 +153,8 @@
         <option value="$PROJECT_DIR$/school/serializer.py" />
         <option value="$PROJECT_DIR$/school/models.py" />
         <option value="$PROJECT_DIR$/untitled/settings.py" />
-        <option value="$PROJECT_DIR$/untitled/urls.py" />
         <option value="$PROJECT_DIR$/school/views.py" />
+        <option value="$PROJECT_DIR$/untitled/urls.py" />
       </list>
     </option>
   </component>
@@ -345,35 +346,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/untitled/settings.py">
+    <entry file="file://D:/Phygitalz/pro/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/school/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="153" column="49" selection-start-line="153" selection-start-column="49" selection-end-line="153" selection-end-column="49" />
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
-            <element signature="e#308#317#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1601445661830" expanded="true" signature="328:430" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/untitled/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#632#664#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/Phygitalz/pro/Lib/site-packages/rest_framework/views.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/school/views.py">
+    <entry file="file://$PROJECT_DIR$/untitled/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" lean-forward="true" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="95" column="31" lean-forward="true" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="31" />
           <folding>
-            <marker date="1601445483339" expanded="true" signature="312:414" ph="..." />
+            <element signature="e#308#317#0" expanded="true" />
           </folding>
         </state>
       </provider>

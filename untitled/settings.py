@@ -87,19 +87,29 @@ WSGI_APPLICATION = 'untitled.wsgi.application'
 
 
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'PhygitalzDev_SchemaDemo',
+#         'USER': 'Dev_phygitalz',
+#         'PASSWORD': 'Dev_phygitalz@123',
+#         'HOST': '208.109.13.199',
+#         'PORT': '3306',
+#     }
+# }
+
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'PhygitalzDev_SchemaDemo',
+        'NAME': 'PhygitalzDev_Schema',
         'USER': 'Dev_phygitalz',
         'PASSWORD': 'Dev_phygitalz@123',
         'HOST': '208.109.13.199',
         'PORT': '3306',
     }
 }
-
-
-
 
 
 
