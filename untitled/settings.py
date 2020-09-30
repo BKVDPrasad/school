@@ -46,7 +46,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'whitenoise.middleware.WhiteNoiseMiddleware',
+    # 'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -81,15 +81,15 @@ WSGI_APPLICATION = 'schoolproject1.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'PAS_S40_PhygitalzSchoolDatabase',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'PAS_S40_PhygitalzSchoolDatabase',
+    }
+}
 
 
-DATABASES = {'default': dj_database_url.config(default='mysql://Dev_phygitalz:Dev_phygitalz@123@208.109.13.199:3306/PhygitalzDev_Schema')}
+# DATABASES = {'default': dj_database_url.config(default='mysql://Dev_phygitalz:Dev_phygitalz@123@208.109.13.199:3306/PhygitalzDev_Schema')}
 
 # DATABASES = {
 #     'default': {
@@ -159,4 +159,4 @@ STATIC_URL = '/static/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media') # media directory in the root directory
 MEDIA_URL = '/media/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR,'static'),)
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
